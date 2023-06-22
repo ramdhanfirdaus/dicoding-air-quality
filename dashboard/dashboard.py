@@ -8,7 +8,7 @@ sns.set(style='dark')
 st.title('Air Quality')
 
 task1, task2 = st.tabs(["Task 1", "Task 2"])
-all_df = pd.read_csv("main_data.csv")
+all_df = pd.read_csv("dashboard/main_data.csv")
 aotizhongxin = all_df.loc[all_df["station"] == "Aotizhongxin"]
 changping = all_df.loc[all_df["station"] == "Changping"]
 dingling = all_df.loc[all_df["station"] == "Dingling"]
