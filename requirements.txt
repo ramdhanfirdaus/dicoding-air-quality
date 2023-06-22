@@ -4,4 +4,3 @@ seaborn
 numpy 
 pandas 
 matplotlib 
-collections
