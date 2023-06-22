@@ -1,2 +1,7 @@
-pandas
-matplotlib
+streamlit 
+scikit-learn 
+seaborn 
+numpy 
+pandas 
+matplotlib 
+collections
